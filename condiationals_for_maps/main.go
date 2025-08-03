@@ -59,7 +59,7 @@ func main() {
 
 	delete(m, "s") // Deleting key 's' from the map
 	fmt.Println("Map after deletion:", m)
-	fmt.Println("****\n")
+	fmt.Println("****")
 
 	//for each loop with map
 	for key, value := range m {
